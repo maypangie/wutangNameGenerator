@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wu Are You?</title>
+  <link rel="stylesheet" href="wutangNameGenerator.css">
+</head>
+<body>
+  <div class="container">
+    <h1>WU-TANG NAME GENERATOR</h1>
+    <h3>Join the Clan, Get Your Name:</h3>
+    <form id="wuTangForm">
+      <label>What's your favorite type of weather?</label>
+      <select id="weather">
+        <option>Thunderstorm</option>
+        <option>Sunny</option>
+        <option>Snow</option>
+        <option>Fog</option>
+        <option>Rain</option>
+      </select>
+
+      <label>Which animal do you vibe with most?</label>
+      <select id="animal">
+        <option>Dog</option>
+        <option>Dragon</option>
+        <option>Eagle</option>
+        <option>Wolf</option>
+        <option>Panther</option>
+      </select>
+
+      <label>Pick a type of music to listen to forever:</label>
+      <select id="music">
+        <option>Jazz</option>
+        <option>Rock</option>
+        <option>Hip-Hop</option>
+        <option>R&B</option>
+        <option>Funk</option>
+      </select>
+
+      <label>What’s your ideal time of day?</label>
+      <select id="time">
+        <option>Morning</option>
+        <option>Afternoon</option>
+        <option>Evening</option>
+        <option>Midnight</option>
+        <option>Dawn</option>
+        <option>Dusk</option>
+      </select>
+
+      <label>If you had a superpower, what would it be?</label>
+      <select id="superpower">
+        <option>Invisibility</option>
+        <option>Flying</option>
+        <option>Super Strength</option>
+        <option>Time Travel</option>
+        <option>Mind Reading</option>
+      </select>
+
+      <button type="button" onclick="generateWuTangName()">Wu Are You?</button>
+    </form>
+
+    <div id="output"></div>
+  </div>
+  <script src="wutangNameGenerator.js"></script>
+</body>
+</html>
+
